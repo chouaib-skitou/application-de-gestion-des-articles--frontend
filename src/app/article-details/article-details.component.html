@@ -1,0 +1,18 @@
+<h2>User Details</h2> 
+
+<hr/>
+<div *ngIf="user">
+  <div>
+    <label><b>Titre: </b></label> {{article.title}}
+  </div>
+  <div>
+    <label><b>Description: </b></label> {{article.description}}
+  </div>
+  <div>
+    <label><b>Published: </b></label> {{article.published}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Article List</button><br>
